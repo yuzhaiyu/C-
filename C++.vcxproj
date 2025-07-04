@@ -124,18 +124,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="airCondition.cpp" />
+    <ClCompile Include="container.cpp" />
     <ClCompile Include="fraction.cpp" />
     <ClCompile Include="lambda.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="String.cpp" />
+    <ClCompile Include="student_sys.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="virtual.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="airCondition.h" />
+    <ClInclude Include="container.h" />
     <ClInclude Include="fraction.h" />
     <ClInclude Include="lambda.h" />
     <ClInclude Include="String.h" />
+    <ClInclude Include="student_sys.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="virtual.h" />
   </ItemGroup>

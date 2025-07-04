@@ -125,3 +125,10 @@ bool Fraction::operator<(const Fraction &f) const{
 	d.scores(c);
 	return d.numerator - c.numerator > 0;
 };
+bool Fraction::operator==(const Fraction&f) const {
+	Fraction c(this->numerator, this->denominator);
+	Fraction d(f.numerator, f.denominator);
+	c.scores(d);
+	d.scores(c);
+	return (d.numerator - c.numerator) == 0;
+}

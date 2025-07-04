@@ -14,6 +14,7 @@ public:
 	Fraction operator/(const Fraction &) const;
 	bool operator>(const Fraction &) const;
 	bool operator<(const Fraction &) const;
+	bool operator==(const Fraction&) const;
 	void show() const;
 	int get_numerator() const;
 	int get_denominator() const;

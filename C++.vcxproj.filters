@@ -22,6 +22,9 @@
     <Filter Include="源文件\lambda">
       <UniqueIdentifier>{a9ae3ca6-229e-4da1-b150-b2b2156af367}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\container">
+      <UniqueIdentifier>{71802486-ac0b-4a4d-934d-8b5c88967300}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,6 +48,12 @@
     <ClCompile Include="lambda.cpp">
       <Filter>源文件\lambda</Filter>
     </ClCompile>
+    <ClCompile Include="container.cpp">
+      <Filter>源文件\container</Filter>
+    </ClCompile>
+    <ClCompile Include="student_sys.cpp">
+      <Filter>源文件\Class</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="airCondition.h">
@@ -63,6 +72,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="lambda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="container.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="student_sys.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

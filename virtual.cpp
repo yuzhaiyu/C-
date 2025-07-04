@@ -8,3 +8,9 @@ Cat::Cat(int i = 0, const char* s = "lili") : Animal(i){
 void Cat::eat() {
 	cout << this->m_name << "is eating" << endl;
 }
+void get_virtual_table() {
+	A a;
+	A* ptr = &a;
+	void (**p) () = (void(**)())(*((void**)ptr));
+	(p[1])();
+}
